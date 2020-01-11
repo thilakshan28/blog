@@ -21,7 +21,7 @@
             }
 
             .full-height {
-                height: 100vh;
+                
             }
 
             .flex-center {
@@ -81,17 +81,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    MULLAI MILK
+                    Laravel
                 </div>
 
                 <div class="links">
-                    <a>Home</a><i class="fa fa-sign-out fa-lg" style="color:red;font-size:60px;"></i>
-                    <a>Purchase</a>
-                    <a>Sales</a>
-                    <a>Inventory</a>
-                    <a>Help</a>
-                    <a>Contact</a>
-                    <a>Produts</a>
+                    <button type="button">Home</button>
+                    <button type="button">Purchase</button>
+                    <button type="button">Sales</button>
+                    <button type="button">Inventory</button>
+                    <button type="button">Help</button>
+                    <button type="button">Contact</button>
+                    <button type="button">Produts</button>
                 </div>
             </div>
         </div>
