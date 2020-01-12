@@ -16,9 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return "mullai milk is a milk company which is situated in mulaitivu district.";
+    
 });
 
 Route::get('/contact', function () {
-    return "thilakshan <br> 01238453 <br> abc@mail.com";
+    
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
